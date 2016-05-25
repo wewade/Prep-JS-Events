@@ -1,16 +1,44 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+#box1{
+  background-color: orange;
+}
+
+#box2{
+  background-color: yellow;
+}
 
 button{
   font-size: 30px;
 }
 
+#exercise3{
+  font-size: 25px;
+}
+
 #answer{
-  background-color: orange;
+ background-color: lightblue;
+ font-size: 30px;
+}
+
+span{
+  color: red;
+  font-weight: bold;
 }
 
 #beWater{
   background-color: yellow;
   font-size: 40px;
   font-weight: 800;
+}
+
+#lines{
+  background-color: aqua;
+  font-size: 25px;
+
 }
 
 #displayQuotes{
@@ -26,4 +54,22 @@ button{
 .showMessageClass {    
     font-size: 25px;
     display: block;
+}
+
+#piratecat{
+  background-image: url('http://cloudmind.info/wp-content/uploads/2015/10/51dLBTwj0kL._SX300_.jpg');
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+}
+.products{
+  background-color: #00FF00;
+}
+.price{
+  display: none;
+  background-color: #CCCC00;
+}
+
+.price:before{
+  content: '$';
 }
