@@ -5,21 +5,29 @@
   <title>JS Events</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/app.js"></script>
+ <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
+<h1>Welcome to da main 'Event'....</h1>
+
 <!-- Exercise 1: -->
-<p id="exercise1" onclick="fontSize()">1) Click me to make my font size bigger</p>
+<div id="box1">
+<p id="biggie" onclick="fontSize()">1) Supah Size Me Gee! Click me to increase the font size.</p> 
+</div>
+
 
 <!-- Exercise 2: -->
-<p id="exercise2" onclick="colorMeBadd()">2) Click me to make my font change color</p>
+<div id="box2">
+<p id="colors" onclick="colorMeBadd()">2) Click me to make my font change color to red.</p>
+</div>
+
 
 <!-- Exericse 3: -->
-<div id="exercise3">
-  <p>3) Click on the button for enlightenment</p>
-  <button onclick= "showAnswer()">What's a classy pirate's favorite letter?</button>
-  <p id="answer"></p>
-</div>
+<p>3) Click on the button for enlightenment</p>
+<button onclick= "showAnswer()">What's a classy pirate's favorite letter?</button>
+<p id="answer"></p>
+
 
 <!-- Exercise 4: -->
 <p>4) Create a button that will display the message "My name is Lee, Brrruuuce Lee" in a new paragraph element after the button is clicked.
@@ -49,8 +57,13 @@
 
   <p id="displayQuotes"></p>
 
-<!-- Exercise 7 -->
-  <p>7) Create your own event listener</p>
+<!-- Exercise 7    
+ -->
+ <h2>Final Boss</h2>
+ <div id="piratecat"></div>
+ <p>Your items from Amooozan:</p>
+
+ <div id="myOrders"></div>
 
 
 </body>
