@@ -14,7 +14,7 @@
     document.getElementById('answer').innerHTML = " C (da sea get it?) arrrr!";
   }
 
-  /*4.  Create a button that will display the message "My name is Lee, Brrruuuce Lee!" in a new paragraph element after the button is clicked.*/
+  /*4.  Create a function that will display the message "My name is Lee, Brrruuuce Lee!" in a new paragraph element after the button is clicked.*/
 function kungfu(){
   document.getElementById('beWater').innerHTML = "My name is Lee, B<span>rrr</span>uuuce Lee!";
 }
@@ -92,8 +92,3 @@ checkOrders(orders);
 
 
 
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 38c9bc6354e2cda5913fee48d0c2b08c464cfd90
