@@ -10,13 +10,13 @@
 
 /*Exercise 3. fill in the spaces to make this function operate:*/
   function showAnswer(){
-    document.getElementById(_______).________ = " C (da sea get it?) arrrr!";
+    document.getElementById("answer").innerHTML = " C (da sea get it?) arrrr!";
   }
 
 /*Exercise 4.  Instruct the following function to display the message "My name is Lee, Brrruuuce Lee!" in a new paragraph element after the button is clicked.*/
 
   function kungfu(){
-    ________.getElementById(________).________ = "My name is Lee, Brrruuuce Lee!";
+    document.getElementById("lee").innerHTML = "My name is Lee, Brrruuuce Lee!";
   }
 
 
