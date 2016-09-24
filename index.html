@@ -5,65 +5,98 @@
   <title>JS Events</title>
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/app.js"></script>
- <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Ewert" rel="stylesheet">
 </head>
 <body>
+<header>
+<h1>Welcome to da main 'Event'!</h1>
+<nav id="menu">
+  <li><a href="#">Homie</a></li>
+  <li><a href="#">Bout Us</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">$tore</a></li>
+</nav>
+</header>
 
-<h1>Welcome to da main 'Event'....</h1>
 
 <!-- Exercise 1: -->
-<div id="box1">
-<p id="biggie" onclick="fontSize()">1) Supah Size Me Gee! Click me to increase the font size.</p> 
+<div id="one">
+  <div id="box1">
+    <p id="biggie" onclick="fontSize()">1) Supah Size Me Gee! Click me to increase the font size.</p> 
+  </div>
 </div>
-
 
 <!-- Exercise 2: -->
-<div id="box2">
-<p id="colors" onclick="colorMeBadd()">2) Click me to make my font change color to red.</p>
+<div id="two">
+  <div id="box2">
+    <p id="colors" onclick="colorMeBadd()">2) Color me red champ.</p>
+  </div>
 </div>
 
-
 <!-- Exericse 3: -->
-<p>3) Click on the button for enlightenment</p>
-<button onclick= "showAnswer()">What's a classy pirate's favorite letter?</button>
-<p id="answer"></p>
-
+<div id="three">
+  <p id="arr">3) Click on the button for the best joke ever!</p>
+  <button id="pirate" onclick= "showAnswer()">What's a classy pirate's favorite letter?</button>
+  <p id="answer"></p>
+</div>
 
 <!-- Exercise 4: -->
-<p>4) Create a button that will display the message "My name is Lee, Brrruuuce Lee" in a new paragraph element after the button is clicked.
-</p>
-
-<img src="assets/bruce-lee.jpg" alt="dragon" style="width:250px; height:250px"><br>
-
-<button onclick= "kungfu()">Enter The Dragon</button>
-
-<p id="beWater"></p>
+<div id="four">
+  <p id="bruce">4) Make the "Enter The Dragon" functional that will display the message "My name is Lee, Brrruuuce Lee" in a new paragraph element after the button is clicked.
+  </p>
+  <img id="dragon" src="assets/bruce-lee.jpg" alt="jeet" style="width:300px; height:300px"><br>
+  <button id="lee" onclick= "kungfu()">Enter The Dragon</button>
+  <p id="beWater">members on<span id="stripes">lll</span>y
+  </p>
+</div>
 
 <h2>Event Listeners</h2>
 
 <!-- Exercise 5 -->
-
-  <p>5) This is an example of an adding an Event Listener</p>
-  
+<div id="five">
+  <p id="ben">5) Add an event listener to the quotes button that will display a quote after it is clicked.</p>
   <button id="Benjamin">Quotes</button>
-  
-  <p id="lines"></p>
+  <p id="lines"></p> 
+</div>
 
-<!-- Exercise 6
- -->
-  <p>6) Generate a random quote from clicking on a button </p>
+<!-- Exercise 6 -->
+<div id="six">
+<p id="keys">6) Add another event listener to the image below that will display an inspirational quote from our beloved DJ Khaled after it is clicked.</p>
+<img id="khaled" src="http://www.mtv.com/crop-images/2013/09/11/DJ%20Khaled.jpg" alt="anotherone" width="300px" height="300px">
+<p id="wedabest"></p>
+</div>
 
+<!-- Exercise 7-->
+ <div id="seven">
+  <p>7) Generate a random quote from clicking on a button </p>
   <button id='change'>Change Quotes</button>
+  <p id="displayQuotes"></p>   
+ </div>
 
-  <p id="displayQuotes"></p>
+<!--  Exercise 8 -->
+<div id="eight">
+  <p>8) Create an event listener that will show and hide the message when clicking on the button</p>
+  <button id="hideandseek">Unlock the secret to financial freedom.</button>
+  <p id="showmoney">
+    <img id="catmoney" src="https://67.media.tumblr.com/4a248703fdbc1fdb43863ea6ff82d87c/tumblr_ndvnms8efi1te5ruso1_500.gif" alt="">
+  </p>
+</div>
 
-<!-- Exercise 7    
- -->
- <h2>Final Boss</h2>
+<!-- Final Boss -->
+<div id="finalboss">
+ <h2 id="bossman">Da Final Boss</h2>
+ <p id="final">Congrats, you've made it this far. Now, let's go a little further to test your skills. Your last challenge is to display a list of items (the orders array in the app.js file). Add an event listener to show and hide the price for each item after clicking on that specific item.</p>
  <div id="piratecat"></div>
- <p>Your items from Amooozan:</p>
+ <p>Please review your order below:</p>
+ <div id="myOrders"></div> 
+</div>
 
- <div id="myOrders"></div>
+
+
+<footer>
+  <p id="copyright">&copy 2016 We Da Best Event Listeners in partnership wit da Gin Drinkers Association (GDA)</p>
+</footer>
 
 
 </body>
